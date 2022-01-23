@@ -27,6 +27,12 @@ const HomeScreen = ({navigation}) => {
                 placeholder='Where From?'
                 nearbyPlacesAPI='GooglePlacesSearch'
                 debounce={400}
+                minLength={2}
+                enablePoweredByContainer={false}
+                onPress={(data, details = null) => {
+                    console.log(data);
+                    console.log(details);
+                }}
                 styles={{
                     container: {
                         flex: 0
