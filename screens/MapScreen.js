@@ -36,7 +36,7 @@ const MapScreen = () => {
         style={tw`bg-gray-100 absolute top-16 left-8 z-1 p-3 rounded-full shadow-lg`}
         onPress={() => navigation.navigate('HomeScreen')}
       >
-        <Icon name='menu' />
+        <Icon name='home' />
       </TouchableOpacity>
       <View style={tw`h-1/2`}>
         <Map />
